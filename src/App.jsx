@@ -7,6 +7,7 @@ function App() {
     <div className="portfolio-app">
       <Navbar />
       <Main />
+      <Footer />
     </div>
   );
 }
