@@ -1,12 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+:root {
+  background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);
 }
 
 body {
-  background-color: black;
+  background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);
 }
-
