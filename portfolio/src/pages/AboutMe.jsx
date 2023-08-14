@@ -3,7 +3,7 @@ import React from 'react'
 function AboutMe (){
 
     return (
-        <div>Home</div>
+        <div>About Me</div>
     )
 }
 
