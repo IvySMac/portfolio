@@ -3,7 +3,10 @@ import React from 'react'
 function Resume (){
 
     return (
-        <div>Resume</div>
+        <div>
+        <h1>Resume</h1>
+        <p>asdhfioasdoifasdifsdfasdofhi</p>
+        </div>
     )
 }
 

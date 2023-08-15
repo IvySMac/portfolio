@@ -4,11 +4,6 @@
   background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);;
 }
 
-/* ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-} */
 
 main {
   position: relative;
@@ -18,6 +13,7 @@ main {
   width: 1000px;
   background-color: white;
   border-radius: 25px;
+  overflow: hidden;
 }
 
 .nav {

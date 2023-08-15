@@ -3,7 +3,10 @@ import React from 'react'
 function AboutMe (){
 
     return (
-        <div>About Me</div>
+        <div>
+        <h1>About Me</h1>
+        <p>asdhfioasdoifasdifsdfasdofhi</p>
+        </div>
     )
 }
 
