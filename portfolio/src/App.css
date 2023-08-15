@@ -7,27 +7,38 @@
 
 main {
   position: relative;
-  top: 50px;
+  top: 85px;
   right: 10px;
   height: 750px;
-  width: 1000px;
+  width: 1200px;
   background-color: white;
   border-radius: 25px;
-  overflow: hidden;
+  overflow-y: auto;
 }
+
+h1 {
+  position: absolute;
+  margin: 10px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
 
 .nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 650px;
+  height: 750px;
   margin: 25px;
   padding: 3px;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
 }
 
 
@@ -40,4 +51,8 @@ h1 {
 #footer-content {
 display: flex;
 justify-content: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

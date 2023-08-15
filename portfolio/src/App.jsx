@@ -9,6 +9,7 @@ import Resume from './pages/Resume'
 /*Components*/
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>{renderPage()}</main>
       <Footer />

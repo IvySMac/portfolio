@@ -4,7 +4,7 @@ function Projects (){
 
     return (
         <div>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in consequat leo. Maecenas vel dui eu lorem elementum laoreet. Ut auctor vel ex eu maximus. Curabitur congue facilisis bibendum. Nulla facilisi. Vivamus eu tortor risus. Duis aliquet erat nec justo malesuada, sed venenatis odio interdum. Aliquam erat volutpat. Nunc id libero in libero accumsan faucibus. Vestibulum aliquam elementum risus, eu tincidunt neque pharetra a. Sed nec justo sed nulla semper congue. Integer in orci et purus euismod tempus. Donec eget feugiat odio. Ut nec elementum libero, in elementum justo. Sed congue bibendum nisl, sit amet interdum est dignissim et.
 
 Pellentesque interdum tristique dui, nec euismod ligula congue non. Suspendisse eu erat vel ex malesuada bibendum. Etiam non libero nec eros dignissim tristique. Fusce volutpat hendrerit tortor, eu iaculis neque ultricies a. Nulla facilisi. Nulla facilisi. Vivamus fringilla urna nec augue dictum, ac volutpat lorem ullamcorper. Proin non justo et purus dapibus accumsan. Vestibulum eget ligula vel metus fermentum fringilla. Donec dignissim libero at purus efficitur rhoncus. Sed eget augue id odio facilisis vestibulum. Phasellus nec sollicitudin erat.
