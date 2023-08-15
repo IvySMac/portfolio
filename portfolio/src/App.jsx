@@ -1,27 +1,27 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 /*Pages*/
-import Home from './pages/Home'
-import Projects from './pages/Projects'
-import AboutMe from './pages/AboutMe'
-import Resume from './pages/Resume'
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import AboutMe from "./pages/AboutMe";
+import Resume from "./pages/Resume";
 /*Components*/
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === 'AboutMe') {
+    if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
-    if (currentPage === 'Projects') {
+    if (currentPage === "Projects") {
       return <Projects />;
     }
     return <Resume />;
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

@@ -1,43 +1,42 @@
 
-
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav">
       <li className="nav-item">
-        <a
+        <button
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home"}
         >
           Home
-        </a>
+        </button>
       </li>
       <li className="nav-item">
-        <a
+        <button
           href="#about"
           onClick={() => handlePageChange("AboutMe")}
           className={currentPage === "AboutMe"}
         >
           About
-        </a>
+        </button>
       </li>
       <li className="nav-item">
-        <a
+        <button
           href="#projects"
           onClick={() => handlePageChange("Projects")}
           className={currentPage === "Projects"}
         >
           Projects
-        </a>
+        </button>
       </li>
       <li className="nav-item">
-        <a
+        <button
           href="#resume"
           onClick={() => handlePageChange("resume")}
           className={currentPage === "Resume"}
         >
           Resume
-        </a>
+        </button>
       </li>
     </ul>
   );

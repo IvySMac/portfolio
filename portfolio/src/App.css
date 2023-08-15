@@ -31,12 +31,24 @@ p {
   margin: 10px;
 }
 
+button {
+  background: url(../public/folder.png);
+  width: 140px;
+  height: 110px;
+  text-align: bottom;
+  border: 0;
+  filter: drop-shadow(-8px 8px 0 #4444dd63);
+}
+
+li {
+  list-style-type: none;
+}
 
 .nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 750px;
+  justify-content: space-evenly;
+  height: 850px;
   margin: 25px;
   padding: 3px;
 }
