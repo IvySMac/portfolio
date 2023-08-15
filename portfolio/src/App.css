@@ -17,6 +17,8 @@ main {
 }
 
 h1 {
+  top: 10px;
+  left: 900px;
   position: absolute;
   margin: 10px;
 }
@@ -32,12 +34,22 @@ p {
 }
 
 button {
+  display: flex;
+  align-items: end;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
   background: url(../public/folder.png);
   width: 140px;
   height: 110px;
   text-align: bottom;
   border: 0;
   filter: drop-shadow(-8px 8px 0 #4444dd63);
+
+}
+
+button:hover {
+  font-style: italic;
 }
 
 li {
