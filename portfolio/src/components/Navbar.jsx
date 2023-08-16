@@ -4,20 +4,11 @@ function Navbar({ currentPage, handlePageChange }) {
     <ul className="nav">
       <li className="nav-item">
         <button
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home"}
-        >
-          Home
-        </button>
-      </li>
-      <li className="nav-item">
-        <button
           href="#about"
           onClick={() => handlePageChange("AboutMe")}
           className={currentPage === "AboutMe"}
         >
-          About
+          About Me
         </button>
       </li>
       <li className="nav-item">
@@ -32,10 +23,19 @@ function Navbar({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <button
           href="#resume"
-          onClick={() => handlePageChange("resume")}
+          onClick={() => handlePageChange("Resume")}
           className={currentPage === "Resume"}
         >
           Resume
+        </button>
+      </li>
+      <li className="nav-item">
+        <button
+          href="#contact"
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact"}
+        >
+          Contact
         </button>
       </li>
     </ul>

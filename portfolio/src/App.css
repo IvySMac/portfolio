@@ -11,7 +11,7 @@ main {
   right: 10px;
   height: 750px;
   width: 1200px;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 25px;
   overflow-y: auto;
 }
@@ -25,7 +25,12 @@ h1 {
 
 h2 {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  margin: 15px;
+}
+
+.about {
+  color: red;
 }
 
 p {
@@ -39,16 +44,22 @@ button {
   padding: 10px;
   color: white;
   font-size: 20px;
-  background: url(../public/folder.png);
+  background: url(/folder.png);
   width: 140px;
   height: 110px;
   text-align: bottom;
   border: 0;
   filter: drop-shadow(-8px 8px 0 #4444dd63);
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
+.projects {
+  background-color: red;
+}
+
 button:hover {
+  background: url(/folder-open.png);
   font-style: italic;
 }
 
