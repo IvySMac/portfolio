@@ -29,8 +29,25 @@ h2 {
   margin: 15px;
 }
 
-.about {
-  color: red;
+.aboutme {
+  display: flex;
+  flex-direction: row;
+}
+
+p.about-text {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  font-size: 20px;
+  text-indent: 15px;
+}
+
+img.aboutme-photo {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
 }
 
 p {
