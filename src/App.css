@@ -7,9 +7,9 @@
 
 main {
   position: relative;
-  top: 85px;
+  top: 150px;
   right: 10px;
-  height: 750px;
+  height: 700px;
   width: 1200px;
   /* background-color: white; */
   border-radius: 25px;
@@ -17,8 +17,8 @@ main {
 }
 
 h1 {
-  top: 10px;
-  left: 900px;
+  top: -20px;
+  left: 750px;
   position: absolute;
   margin: 10px;
 }
@@ -50,6 +50,11 @@ img.aboutme-photo {
   margin: 10px;
 }
 
+img.header {
+  width: 540px;
+  height: auto;
+}
+
 p {
   padding: 10px;
   margin: 10px;
@@ -75,6 +80,10 @@ button {
   background-color: red;
 }
 
+button {
+  margin: 15px;
+}
+
 button:hover {
   background: url(/folder-open.png);
   font-style: italic;
@@ -87,14 +96,15 @@ li {
 .nav {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: center;
   height: 850px;
   margin: 25px;
   padding: 3px;
 }
 
 
-#footer {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
