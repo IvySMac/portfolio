@@ -1,4 +1,4 @@
-# Fulle Stack Web Developer Portfolio 
+# Full Stack Web Developer Portfolio 
 
 ## Description 
 coming soon

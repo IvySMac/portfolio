@@ -9,10 +9,14 @@ function Projects() {
         <button className="project">Wine & Dine</button></a>
         <a href="https://techtalkblog-c1120a1cd671.herokuapp.com/">
         <button className="project">Tech Talk!</button></a>
-      <img className="project-button" src="/webframe-b.png" />
-      <img className="project-button" src="/webframe-b.png" />
-      <img className="project-button" src="/webframe-b.png" />
-      <img className="project-button" src="/webframe-b.png" />
+  
+        <button className="project-soon">More Coming Soon!</button>
+{/* 
+        <button className="project-soon">Coming Soon</button>
+
+        <button className="project-soon">Coming Soon</button>
+        <button className="project-soon">Coming Soon</button> */}
+     
       </p>
     </div>
   );

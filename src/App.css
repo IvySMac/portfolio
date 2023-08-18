@@ -110,12 +110,29 @@ button.project {
   height: 400px;
 }
 
+button.project-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/webframe-c.jpg);
+  font-size: 2em;
+  color: rgb(97, 168, 255);
+  width: 400px;
+  height: 400px;
+}
+
 a {
   text-decoration: none;
 }
 
 button.project:hover {
   background: url(/webframe-b.png);
+  font-style: normal;
+  color: rgb(97, 168, 255);
+}
+
+button.project-soon:hover {
+  background: url(/webframe-c.jpg);
   font-style: normal;
   color: rgb(97, 168, 255);
 }
