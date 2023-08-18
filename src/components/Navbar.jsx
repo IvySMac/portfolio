@@ -1,8 +1,8 @@
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav">
-      <li className="nav-item">
+    <ul>
+      <li>
         <button
           href="#about"
           onClick={() => handlePageChange("AboutMe")}
@@ -11,7 +11,7 @@ function Navbar({ currentPage, handlePageChange }) {
           About Me
         </button>
       </li>
-      <li className="nav-item">
+      <li>
         <button
           href="#projects"
           onClick={() => handlePageChange("Projects")}
@@ -20,7 +20,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Projects
         </button>
       </li>
-      <li className="nav-item">
+      <li>
         <button
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -29,7 +29,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Resume
         </button>
       </li>
-      <li className="nav-item">
+      <li>
         <button
           href="#contact"
           onClick={() => handlePageChange("Contact")}

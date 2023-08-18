@@ -4,28 +4,17 @@
   background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);;
 }
 
-
 main {
-  position: relative;
-  top: 150px;
-  right: 10px;
-  height: 700px;
-  width: 1200px;
-  /* background-color: white; */
-  border-radius: 25px;
-  overflow-y: auto;
-}
-
-h1 {
-  top: -20px;
-  left: 750px;
-  position: absolute;
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 h2 {
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
   margin: 15px;
 }
 
@@ -50,9 +39,18 @@ img.aboutme-photo {
   margin: 10px;
 }
 
+img.project-button {
+  margin: 15px;
+}
+
 img.header {
   width: 540px;
   height: auto;
+}
+
+div.header {
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -76,8 +74,38 @@ button {
 
 }
 
+button.project {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: url(/webframe-b.png);
+  width: 400px;
+  height: 400px;
+}
+
+
 .projects {
-  background-color: red;
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.project-button {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 button {
@@ -89,23 +117,24 @@ button:hover {
   font-style: italic;
 }
 
+a.project-link{
+ color: red;
+ display: flex;
+ justify-content: center;
+}
+
 li {
   list-style-type: none;
 }
 
-.nav {
+ul {
   display: flex;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
+  flex-direction: row;
   justify-content: center;
-  height: 850px;
-  margin: 25px;
-  padding: 3px;
+  
 }
 
-
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
