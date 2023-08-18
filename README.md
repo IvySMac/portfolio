@@ -1,4 +1,4 @@
-# Portfolio 
+# Fulle Stack Web Developer Portfolio 
 
 ## Description 
 coming soon
@@ -45,4 +45,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Credits 
-coming soon
+
+Fade in on page load effect - <a href="https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/">Sayantanm19</a> on GeeksforGeeks

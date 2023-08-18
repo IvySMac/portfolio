@@ -4,6 +4,21 @@
   background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);;
 }
 
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -16,19 +31,27 @@ h2 {
   font-size: 2em;
   font-family: 'Courier New', Courier, monospace;
   margin: 15px;
+  color: white;
 }
 
-.aboutme {
+.about-me {
   display: flex;
   flex-direction: row;
 }
 
-p.about-text {
+.about-text {
   display: flex;
   flex-direction: column;
   width: 750px;
   font-size: 20px;
   text-indent: 15px;
+}
+
+.about-header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
 }
 
 img.aboutme-photo {
@@ -37,6 +60,7 @@ img.aboutme-photo {
   width: 400px;
   height: 400px;
   margin: 10px;
+  filter: drop-shadow(-8px 8px 0 #4444dd63);
 }
 
 img.project-button {
@@ -52,6 +76,7 @@ div.header {
   display: flex;
   justify-content: center;
 }
+
 
 p {
   padding: 10px;
@@ -76,36 +101,23 @@ button {
 
 button.project {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   background: url(/webframe-b.png);
+  font-size: 2em;
+  color: pink;
   width: 400px;
   height: 400px;
 }
 
-
-.projects {
- display: flex;
- justify-content: center;
- flex-direction: row;
- flex-wrap: wrap;
+a {
+  text-decoration: none;
 }
 
-.project-button {
-  display: flex;
-  flex-direction: column;
-}
-
-#container {
-  position: relative;
-  text-align: center;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+button.project:hover {
+  background: url(/webframe-b.png);
+  font-style: normal;
+  color: rgb(97, 168, 255);
 }
 
 button {
@@ -117,11 +129,13 @@ button:hover {
   font-style: italic;
 }
 
-a.project-link{
- color: red;
+.projects {
  display: flex;
  justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
 }
+
 
 li {
   list-style-type: none;

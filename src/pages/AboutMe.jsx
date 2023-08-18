@@ -2,10 +2,10 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="aboutme">
+    <div className="about-me">
       <img className="aboutme-photo" src="/aboutme-photo.jpg" />
-      <p className="about-text">
-      <h2>About Me</h2>
+      <span className="about-text">
+        <p className="about-header">About Me</p>
         Hello! My name is Ivy McCurdy. I am a concept artist and illustrator
         with a background in animation. I strive to familiarize myself with a
         wide variety of tools to help me become a well-rounded artist. I have
@@ -17,16 +17,15 @@ function AboutMe() {
         to a sketchbook. When I graduated high school, I went on to the
         University of Kansas to study fine arts before realizing my true passion
         was in animation. 
+        <span>
         Two years later I transferred over to Johnson County
         Community College where I graduated later in the Fall of 2018. 
-        <p>
-        
-        </p>
         As of
         2023, I have moved on to the world of Full-Stack Development to help
         round out my skills as a creator. To take a look at some of my most
         recent projects, click on the 'Work' link above.
-      </p>
+        </span>
+      </span>
     </div>
   );
 }
