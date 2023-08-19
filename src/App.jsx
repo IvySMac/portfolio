@@ -27,6 +27,7 @@ function App() {
     return <Contact />;
   };
 
+
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (

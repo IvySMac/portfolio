@@ -60,6 +60,15 @@ p {
 span {
   margin: 15px;
 }
+/* 
+img.logo {
+  display: flex;
+  flex-direction: column;
+} */
+
+.subtitle {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .about-me {
   display: flex;
