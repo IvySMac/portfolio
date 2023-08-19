@@ -1,7 +1,21 @@
 :root {
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(to bottom, #b3eaf7, #9ddffd, #91d1ff, #95c1ff, #a7aeff, #baa3fb, #ce97f3, #e289e6, #ec88dc, #f487d2, #fa87c8, #ff88bf);;
+  background-image: linear-gradient(
+    to bottom,
+    #b3eaf7,
+    #9ddffd,
+    #91d1ff,
+    #95c1ff,
+    #a7aeff,
+    #baa3fb,
+    #ce97f3,
+    #e289e6,
+    #ec88dc,
+    #f487d2,
+    #fa87c8,
+    #ff88bf
+  );
 }
 
 body {
@@ -12,11 +26,11 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
 main {
@@ -29,14 +43,29 @@ h2 {
   display: flex;
   justify-content: center;
   font-size: 2em;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin: 15px;
   color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  margin: 15px;
 }
 
 .about-me {
   display: flex;
   flex-direction: row;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
 }
 
 .about-text {
@@ -50,7 +79,7 @@ h2 {
 .about-header {
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: white;
 }
 
@@ -59,7 +88,7 @@ img.aboutme-photo {
   flex-direction: column;
   width: 400px;
   height: 400px;
-  margin: 10px;
+  margin: 20px;
   filter: drop-shadow(-8px 8px 0 #4444dd63);
 }
 
@@ -77,12 +106,6 @@ div.header {
   justify-content: center;
 }
 
-
-p {
-  padding: 10px;
-  margin: 10px;
-}
-
 button {
   display: flex;
   align-items: end;
@@ -95,8 +118,7 @@ button {
   text-align: bottom;
   border: 0;
   filter: drop-shadow(-8px 8px 0 #4444dd63);
-  font-family: 'Courier New', Courier, monospace;
-
+  font-family: "Courier New", Courier, monospace;
 }
 
 button.project {
@@ -121,8 +143,17 @@ button.project-soon {
   height: 400px;
 }
 
-a {
-  text-decoration: none;
+button.pdf-download {
+  display: flex;
+  justify-content: center;
+  color: red;
+  background: url(/save.png);
+  width: 91px;
+  height: 91px;
+}
+
+button.pdf-download:hover {
+  background: url(/save.png);
 }
 
 button.project:hover {
@@ -146,15 +177,29 @@ button:hover {
   font-style: italic;
 }
 
-.projects {
- display: flex;
- justify-content: center;
- flex-direction: row;
- flex-wrap: wrap;
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.save-button {
+  display: flex;
+  justify-content: center;
+}
 
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.pdf-document {
+  max-width: 100%;
+  filter: drop-shadow(-8px 8px 0 #4444dd63);
+  margin: 20px;
+}
 
 li {
   list-style-type: none;
@@ -164,7 +209,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
 
 .footer {
@@ -173,8 +217,8 @@ ul {
 }
 
 #footer-content {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar {
