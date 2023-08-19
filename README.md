@@ -60,4 +60,6 @@ GitHub Logo - <a href="https://www.vecteezy.com/vector-art/17119660-github-logo-
 
 LinkedIn Logo - <a href="https://www.vecteezy.com/png/18930587-linkedin-logo-png-linkedin-icon-transparent-png">logoking</a> on Vecteezy
 
+Font used for Logo - Overglow on <a href="https://indieground.net/product/overglow-font/">Indieground</a> 
+
 All other assets are drawn and created by me <3
