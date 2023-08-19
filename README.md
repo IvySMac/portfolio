@@ -1,10 +1,14 @@
 # Full Stack Web Developer Portfolio 
 
 ## Description 
-coming soon
+
+As the Bootcamp comes to a close, it's crucial to showcase what I can do and what I've learned. What better way to do that then revamp my portfolio? 
+With React now under my belt, I can now flex those skills and put my best foot forward. 
 
 ## Usage
-coming soon
+![A header that says 'Ivy McCurdy' above with folder icons below that act as links. Below the folder you have a picture of the web developer and some text to the right](./public/portfolio-preview.jpg)
+
+Check out the deployed site <a href="">here</a>!
 
 ## User Story
 
@@ -46,4 +50,14 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Credits 
 
-Fade in on page load effect - <a href="https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/">Sayantanm19</a> on GeeksforGeeks
+Fade In effect - <a href="https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/">Sayantanm19</a> on GeeksforGeeks
+
+Form Spark Contact Form - Tutorial by <a href="https://www.youtube.com/watch?v=T3NHNuD60h4&ab_channel=codebubb">codebubb</a> on Youtube
+
+Rotate CSS - <a href="https://thebrandsmen.com/css-image-hover-effects/">Brandsmen</a>
+
+GitHub Logo - <a href="https://www.vecteezy.com/vector-art/17119660-github-logo-git-hub-icon-with-text-on-white-and-black-background">Raazi Muhammed K</a> on Vecteezy
+
+LinkedIn Logo - <a href="https://www.vecteezy.com/png/18930587-linkedin-logo-png-linkedin-icon-transparent-png">logoking</a> on Vecteezy
+
+All other assets are drawn and created by me <3
