@@ -64,7 +64,8 @@ span {
 .about-me {
   display: flex;
   flex-direction: row;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: justify;
 }
 
@@ -201,13 +202,13 @@ button:hover {
 }
 
 .thankyou {
-  background-color: #FFACDD;
+  background-color: #ffacdd;
   border-radius: 5px;
   border: 10px;
   margin: 10px;
   padding: 10px;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .uh-oh {
@@ -217,7 +218,7 @@ button:hover {
   margin: 10px;
   padding: 10px;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 li {
@@ -305,9 +306,9 @@ img.social {
 
 img.social:hover {
   -webkit-transform: rotateZ(-10deg);
--ms-transform: rotateZ(-10deg);
-transform: rotateZ(-10deg);
-transition: 1s ease;
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+  transition: 1s ease;
 }
 
 #footer-content {
@@ -318,3 +319,68 @@ transition: 1s ease;
 ::-webkit-scrollbar {
   display: none;
 }
+
+@media screen and (min-width: 240px) and (max-width: 820px) {
+
+  :root {
+  height: 300vh;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    height: 300vh;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  img.ivy {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  img.aboutme-photo {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+ .about-text {
+  width: 450px;
+ }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  }
+  
