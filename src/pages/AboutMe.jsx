@@ -16,14 +16,13 @@ function AboutMe() {
         characters and stories. Whenever I had free time, I had my face pressed
         to a sketchbook. When I graduated high school, I went on to the
         University of Kansas to study fine arts before realizing my true passion
-        was in animation. 
+        was in animation.
         <span>
-        Two years later I transferred over to Johnson County
-        Community College where I graduated later in the Fall of 2018. 
-        As of
-        2023, I have moved on to the world of Full-Stack Development to help
-        round out my skills as a creator. To take a look at some of my most
-        recent projects, click on the 'Work' link above.
+          Two years later I transferred over to Johnson County Community College
+          where I graduated later in the Fall of 2018. As of 2023, I have moved
+          on to the world of Full-Stack Development to help round out my skills
+          as a creator. To take a look at some of my most recent projects, click
+          on the 'Work' link above.
         </span>
       </span>
     </div>

@@ -1,4 +1,3 @@
-
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <ul>
@@ -6,7 +5,6 @@ function Navbar({ currentPage, handlePageChange }) {
         <button
           href="#about"
           onClick={() => handlePageChange("AboutMe")}
-          className={currentPage === "AboutMe"}
         >
           About Me
         </button>
@@ -15,7 +13,6 @@ function Navbar({ currentPage, handlePageChange }) {
         <button
           href="#projects"
           onClick={() => handlePageChange("Projects")}
-          className={currentPage === "Projects"}
         >
           Projects
         </button>
@@ -24,7 +21,6 @@ function Navbar({ currentPage, handlePageChange }) {
         <button
           href="#resume"
           onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume"}
         >
           Resume
         </button>
@@ -33,7 +29,6 @@ function Navbar({ currentPage, handlePageChange }) {
         <button
           href="#contact"
           onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact"}
         >
           Contact
         </button>

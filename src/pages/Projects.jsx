@@ -5,18 +5,14 @@ function Projects() {
     <div>
       <h2>Projects</h2>
       <p className="projects">
-      <a href="https://rtm713.github.io/WiningAndDining/">
-        <button className="project">Wine & Dine</button></a>
+        <a href="https://rtm713.github.io/WiningAndDining/">
+          <button className="project">Wine & Dine</button>
+        </a>
         <a href="https://techtalkblog-c1120a1cd671.herokuapp.com/">
-        <button className="project">Tech Talk!</button></a>
-  
-        <button className="project-soon">More Coming Soon!</button>
-{/* 
-        <button className="project-soon">Coming Soon</button>
+          <button className="project">Tech Talk!</button>
+        </a>
 
-        <button className="project-soon">Coming Soon</button>
-        <button className="project-soon">Coming Soon</button> */}
-     
+        <button className="project-soon">More Coming Soon!</button>
       </p>
     </div>
   );
