@@ -8,7 +8,7 @@ function Projects() {
         <a href="https://rtm713.github.io/WiningAndDining/">
           <button className="project">Wine & Dine</button>
         </a>
-        <a href="job-huntr-e0fcb23b9575.herokuapp.com/">
+        <a href="https://job-huntr-e0fcb23b9575.herokuapp.com/">
           <button className="project">Job Huntr</button>
         </a>
 
